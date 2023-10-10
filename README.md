@@ -1,6 +1,6 @@
 # Irodori-Comics-ripper
 
-# Ripping doujinshi from Irodori Comics
+## Ripping doujinshi from Irodori Comics
 
 If you have purchased a doujinshi from the Irodori Comics store, you need to extract the images from the PDF. This can be done by using pdfimages, which is available in the poppler-utils package. Unfortunately, this package is only available on Linux.
 
@@ -13,7 +13,7 @@ To use the script, place the PDFs and pingo alongside the script, and install th
 
 Then, simply execute the command ```bash rip.sh```.
 
-# Extra: Restoring modTime attribute
+## Extra: Restoring modTime attribute
 
     1. Retrieve the most recent value of the Last-Modified header.
     2. Apply it using the command ```touch -a -m -d "Wed, 03 May 2023 00:00:00 +0000" target_file```.
